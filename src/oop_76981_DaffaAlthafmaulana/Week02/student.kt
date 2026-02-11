@@ -22,7 +22,11 @@ fun main (){
         println("Status: Pendaftaran Selesai.")
     }
 }
-class Student (val name: String, val nim: String, var major: String){
+class Student (
+    val name: String,
+    val nim: String,
+    var major: String){
+
     init {
         if (nim.length != 5) {
             println("WARNING: Objek tercipta dengan NIM ($nim) yang tidak valid!")
@@ -30,5 +34,8 @@ class Student (val name: String, val nim: String, var major: String){
         } else {
             println("LOG: Objek Student $name berhasil dialokasikan di Memory.")
         }
+    }
+    constructor(name: String, nim: String) : this(name, nim, "Non-Matriculated"){
+        println("LOG: Menggunakan Consstructor jalur umum (Tanpa Jurusan)")
     }
 }
