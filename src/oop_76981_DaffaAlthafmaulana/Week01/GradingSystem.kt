@@ -1,4 +1,4 @@
-package ` oop_76981_DaffaAlthafmaulana`.week01
+package oop_76981_DaffaAlthafmaulana.Week01
 
 fun main() {
     var name  : String ="John Thor"
