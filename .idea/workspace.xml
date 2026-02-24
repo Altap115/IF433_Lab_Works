@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1f79aa-3429-455f-ba80-b36bec2ef414" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafMaulana_lec/Week03/Bapake.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week03/Employee.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week02/student.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week02/Student/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week02/Student/Student.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Kotlin Class" />
       </list>
     </option>
