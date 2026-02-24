@@ -1,12 +1,15 @@
 package oop_76981_DaffaAlthafmaulana.Week04
 
 open class Vehicle(val brand: String) {
-
-    open fun honk() {
-        println("$brand berbunyi: Tiiin Tiiin!")
-    }
+ var speed: Int = 0
 
     open fun accelerate() {
-        println("$brand sedang berakselerasi.")
+        speed += 10
+        println("$brand melaju. kecepatan: $speed km/jam.")
     }
+
+    open fun honk() {
+        println("Beep beep!")
+    }
+
 }

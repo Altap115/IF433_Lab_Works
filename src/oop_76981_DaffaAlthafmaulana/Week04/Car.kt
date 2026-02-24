@@ -1,11 +1,12 @@
 package oop_76981_DaffaAlthafmaulana.Week04
 
-open class Car(
-    brand: String,
-    val numberOfDoors: Int
-) : Vehicle(brand) {
+open class Car(brand: String, val numberOfDoors: Int) : Vehicle(brand) {
 
     fun openTrunk() {
-        println("Bagasi $brand terbuka.")
+        println("Bagasi mobil $brand dengan $numberOfDoors pintuterbuka.")
+    }
+
+    override fun honk() {
+        println("TIN TIN! Mobil $brand lewat!")
     }
 }
