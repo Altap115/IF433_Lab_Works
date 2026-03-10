@@ -37,9 +37,7 @@ fun main() {
     println("Luas Persegi: $luasPersegi")
     println("Luas Persegi Panjang: $luasPersegiPanjang")
     println("Luas Lingkaran: $luasLingkaran")
-}
 
-fun main() {
 
     println("===== PAYMENT SYSTEM TEST =====")
 
@@ -54,5 +52,12 @@ fun main() {
     for (payment in paymentMethods) {
 
         payment.processPayment(75000.0)
+        if (payment is EWallet) {
+            println("Melakukan top up otomatis...")
+            payment.topUp(50000.0)
+            payment.processPayment(75000.0)
+        }
+
+        println()
     }
 }
