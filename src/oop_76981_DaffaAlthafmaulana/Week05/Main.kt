@@ -38,3 +38,21 @@ fun main() {
     println("Luas Persegi Panjang: $luasPersegiPanjang")
     println("Luas Lingkaran: $luasLingkaran")
 }
+
+fun main() {
+
+    println("===== PAYMENT SYSTEM TEST =====")
+
+    val ewallet = EWallet("Daffa", 50000.0)
+    val creditCard = CreditCard("Daffa", 100000.0)
+
+    val paymentMethods: List<PaymentMethod> = listOf(
+        ewallet,
+        creditCard
+    )
+
+    for (payment in paymentMethods) {
+
+        payment.processPayment(75000.0)
+    }
+}
