@@ -28,4 +28,11 @@ fun main () {
     hub.addDevice(lamp)
     hub.addDevice(speaker)
     hub.addDevice(cctv)
+
+    println("=== SECURITY MODE AKTIF ===")
+    hub.activateSecurityMode()
+
+    println()
+    println("=== MATIKAN SEMUA PERANGKAT ===")
+    hub.turnOffAllSwitches()
 }
