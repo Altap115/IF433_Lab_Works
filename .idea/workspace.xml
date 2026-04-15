@@ -82,7 +82,7 @@
       <recent name="oop_76981_DaffaAlthafmaulana.Week01" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Kotlin.EcommerceMainKt">
     <configuration name="DasarNullHandleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop_76981_DaffaAlthafMaulana_lec.Week08.DasarNullHandleKt" />
       <module name="IF433_Lab_Works" />
@@ -90,15 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop_76981_DaffaAlthafmaulana.Week08.MainKt" />
+    <configuration name="EcommerceMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop_76981_DaffaAlthafmaulana.Week08.EcommerceMainKt" />
       <module name="IF433_Lab_Works" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProgramKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop_76981_DaffaAlthafMaulana_lec.Week07.MainProgramKt" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop_76981_DaffaAlthafmaulana.Week08.MainKt" />
       <module name="IF433_Lab_Works" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.EcommerceMainKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.SaftyNetNullKt" />
         <item itemvalue="Kotlin.SafeElvisKt" />
         <item itemvalue="Kotlin.DasarNullHandleKt" />
-        <item itemvalue="Kotlin.MainProgramKt" />
       </list>
     </recent_temporary>
   </component>
