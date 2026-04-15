@@ -4,4 +4,8 @@ class ApiParser {
     val id = requireNotNull(rawJson["id"] as? String) { "API Invalid: Missing ID" }
     val warranty = rawJson["warranty"] as? Int ?: 12
     val size = rawJson["size"] as? String ?: "All Size"
+
+    val transactionId = JavaPaymentService.processPayment(id)!!
+    println("Checkout berhasil! Transaction ID: $transactionId")
+
 }
