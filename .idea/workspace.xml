@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e1f79aa-3429-455f-ba80-b36bec2ef414" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafMaulana_lec/Week08/DasarNullHandle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafMaulana_lec/Week08/SafeElvis.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafMaulana_lec/Week08/SaftyNetNull.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week08/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week08/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week08/NotificationService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week08/NotificationService.kt" afterDir="false" />
-    </list>
+    <list default="true" id="5e1f79aa-3429-455f-ba80-b36bec2ef414" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
