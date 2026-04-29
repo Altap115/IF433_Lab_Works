@@ -25,8 +25,18 @@ class Kalkulator<T: Number>(val a:T, val b:T){
     }
 }
 
+//Generic - Where
+fun <T> penilaian(list: List<T>, kkm:T):List<T> where T: Comparable<T> {
+    return list.filter { it >= kkm }.sorted()
+}
 
 fun main() {
+    println("===== SAMPLE GENERIC - Where =====")
+    val daftarNilai = listOf(60, 71, 90, 83, 73, 63 ,55, 84, 72)
+    println("Daftar Nilai: " + daftarNilai)
+    val nilaiAtasKKM = penilaian(daftarNilai, 70)
+    println("Nilai diatas KKM: " + nilaiAtasKKM)
+
     println("===== SAMPLE GENERIC - FFUNCTION CONSTRAINT =====")
     val kalk = Kalkulator(10, 20.347)
     println("Penambahan ${kalk.a} ditambah ${kalk.b} : " + kalk.tambah())
