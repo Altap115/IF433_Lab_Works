@@ -24,4 +24,14 @@ fun main() {
     txRepo.getAll().forEach {
         println("TxID: ${it.id}, Amount: ${it.amount}")
     }
+
+    println("\n=== Search BTC ===")
+
+    val result = coinRepo.searchByName("BTC")
+
+    result.forEach {
+        if (it is Coin) {
+            println("Found: ${it.name} - ${it.balance}")
+        }
+    }
 }
