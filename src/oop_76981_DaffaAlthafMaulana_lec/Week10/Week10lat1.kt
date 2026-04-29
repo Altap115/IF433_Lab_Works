@@ -14,5 +14,6 @@ fun main() {
     println(rmh.alamat)
 
     println("===== SAMPLE GENERIC =====")
-    val kmps
+    val kmps = Kampus(alamat = "Tanggerang")
+    println(kmps.alamat)
 }
