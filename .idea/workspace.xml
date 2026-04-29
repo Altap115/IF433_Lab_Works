@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e1f79aa-3429-455f-ba80-b36bec2ef414" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week09/TradingDashboard.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week09/TradingDashboard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafMaulana_lec/Week09/Week09Lat1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
       <list>
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
-        <option value="Kotlin File" />
         <option value="Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -62,6 +63,7 @@
     &quot;Kotlin.SafeElvisKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.SaftyNetNullKt.executor&quot;: &quot;Run&quot;,
     &quot;Kotlin.Week02Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.Week09Lat1Kt.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -79,7 +81,7 @@
       <recent name="oop_76981_DaffaAlthafmaulana.Week01" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TradingDashboardKt">
+  <component name="RunManager" selected="Kotlin.Week09Lat1Kt">
     <configuration name="EcommerceMainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop_76981_DaffaAlthafmaulana.Week08.EcommerceMainKt" />
       <module name="IF433_Lab_Works" />
@@ -89,13 +91,6 @@
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop_76981_DaffaAlthafmaulana.Week08.MainKt" />
-      <module name="IF433_Lab_Works" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SafeElvisKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop_76981_DaffaAlthafMaulana_lec.Week08.SafeElvisKt" />
       <module name="IF433_Lab_Works" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,13 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Week09Lat1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop_76981_DaffaAlthafMaulana_lec.Week09.Week09Lat1Kt" />
+      <module name="IF433_Lab_Works" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Week09Lat1Kt" />
         <item itemvalue="Kotlin.TradingDashboardKt" />
         <item itemvalue="Kotlin.EcommerceMainKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.SaftyNetNullKt" />
-        <item itemvalue="Kotlin.SafeElvisKt" />
       </list>
     </recent_temporary>
   </component>
