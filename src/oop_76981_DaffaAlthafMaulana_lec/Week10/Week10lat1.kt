@@ -15,7 +15,23 @@ fun <T> Password(isiPass:T):T {
     return isiPass
 }
 
+//code Generic - Functiona ada Constraint
+class Kalkulator<T: Number>(val a:T, val b:T){
+    fun tambah(): Int {
+        return a.toInt() + b.toInt()
+    }
+    fun kurang(): Double {
+        return a.toDouble() - b.toDouble()
+    }
+}
+
+
 fun main() {
+    println("===== SAMPLE GENERIC - FFUNCTION CONSTRAINT =====")
+    val kalk = Kalkulator(10, 20.347)
+    println("Penambahan ${kalk.a} ditambah ${kalk.b} : " + kalk.tambah())
+    println("Pengurangan ${kalk.a} dikurang ${kalk.b} : " + kalk.kurang())
+
     println("===== SAMPLE GENERIC - FFUNCTION =====")
     println("Password Kamu: " + Password("12345"))
 
