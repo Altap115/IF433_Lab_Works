@@ -10,10 +10,11 @@ class Kampus <T>(val alamat:T)
 
 fun main() {
     println("===== SAMPLE NON-GENERIC =====")
-    val rmh = rumah(alamat = "Gading Serpong")
-    println(rmh.alamat)
+    val rmh = rumah(alamat = 200)
+    val angkaRumah = rmh.alamat as Int
+    println(angkaRumah + 50)
 
     println("===== SAMPLE GENERIC =====")
-    val kmps = Kampus(alamat = "Tanggerang")
-    println(kmps.alamat)
+    val kmps = Kampus(alamat = 300)
+    println(kmps.alamat + 50)
 }
