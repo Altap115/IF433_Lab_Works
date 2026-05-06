@@ -48,4 +48,28 @@ fun main () {
     //cara panggil function Extension - BASIC
     println("tonnyyy stark ironman".Panggil_Mahasiswa())
 
+    //SCOPE - LET
+    var kampusSaya = "UMN"
+    kampusSaya.let {
+        if (it =="UMN"){
+            println("Kampus " + it + "keren")
+        } else {
+            println("Amazing + $it")
+        }
+    }
+    //SCOPE - RUN
+    var alamatSaya = "Gading Serpong"
+    alamatSaya.run {
+        println("Saya tinggal di " + this)
+    }
+
+    //SCOPE - WITH
+    var gradeSaya = with(90){
+        if(this >= 80){
+            "A"
+        } else {
+            "C"
+        }
+    }
+    println("Grade kamu adalah $gradeSaya")
 }
