@@ -1,5 +1,8 @@
 package oop_76981_DaffaAlthafMaulana_lec.Week11
 
+import oop_76981_DaffaAlthafMaulana_lec.Week06.Mahasiswa
+import oop_76981_DaffaAlthafMaulana_lec.Week08.mahasiswa
+
 fun Panggil_Nama(nama: String):String {
     return "Hai $nama"
 }
@@ -32,6 +35,12 @@ fun String?.cekNulldanEmpty():String {
     } else {
         return "Username kamu adalah $this"
     }
+}
+
+class Mahasiswa() {
+    var nim:String = ""
+    var nama:String = ""
+    var ipk:Int = 0
 }
 
 fun main () {
@@ -72,4 +81,20 @@ fun main () {
         }
     }
     println("Grade kamu adalah $gradeSaya")
+
+    //SCOPE - APPLY
+    var dataMahasiswa = Mahasiswa().apply {
+        nim = "12345"
+        nama = "Yudi"
+        ipk = 3
+    }
+    println("Mahasiswa ${dataMahasiswa.nama} dgn ${dataMahasiswa.nim} ipknya ${dataMahasiswa.ipk}")
+
+    //SCOPE - ALSO
+    var deretAngka = mutableListOf<Int>(80,70,75,68,85)
+    deretAngka.also {
+        println("sebelum $deretAngka")
+    }.add(90)
+    println("Setelah $deretAngka")
 }
+
