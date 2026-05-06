@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e1f79aa-3429-455f-ba80-b36bec2ef414" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafMaulana_lec/Week11/Lat01.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week11/StringExtensions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,8 @@
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>

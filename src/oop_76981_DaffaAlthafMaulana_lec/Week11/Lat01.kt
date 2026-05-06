@@ -47,4 +47,5 @@ fun main () {
 
     //cara panggil function Extension - BASIC
     println("tonnyyy stark ironman".Panggil_Mahasiswa())
+
 }
