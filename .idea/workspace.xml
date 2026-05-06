@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e1f79aa-3429-455f-ba80-b36bec2ef414" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafMaulana_lec/Week11/Lat01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafMaulana_lec/Week11/Lat01.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week11/ScopeConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week11/ScopeConfiguration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week11/ScopeLetRun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week11/ScopeLetRun.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week11/StringExtensions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop_76981_DaffaAlthafmaulana/Week11/StringExtensions.kt" afterDir="false" />
-    </list>
+    <list default="true" id="5e1f79aa-3429-455f-ba80-b36bec2ef414" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
