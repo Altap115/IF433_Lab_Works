@@ -35,7 +35,11 @@ fun cek_saldo(sadoSaya: Int){
 
 fun main(){
     // Throw
-    cek_saldo(1200)
+    try {
+        cek_saldo(990)
+    } catch (e: Exception){
+        println("Error di Throw: ${e.message}")
+    }
 
     // Exceptions - Expressions
     cek_tipe_data()
