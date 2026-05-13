@@ -37,4 +37,7 @@ fun main() {
     } finally {
         println("Siklus pengecekan dispenser pagi selesai.")
     }
+
+    println("\n--- Jadwal Makan Sore ---")
+    println("(Pemilik telah mengisi ulang stok kibble)")
 }
