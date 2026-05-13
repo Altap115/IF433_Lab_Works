@@ -19,4 +19,13 @@ fun main() {
     var currentKibbleStock = 50
 
     println("=== SMART PET FEEDER SYSTEM ===")
+    println("\n--- Jadwal Makan Pagi ---")
+    try {
+        // Minta 80 gr, tapi stok hanya 50 gr -> FoodEmptyException
+        val remaining = dispenseKibble(
+            requestedGram = 80,
+            availableGram = currentKibbleStock,
+            isJammed = false
+        )
+    }
 }
