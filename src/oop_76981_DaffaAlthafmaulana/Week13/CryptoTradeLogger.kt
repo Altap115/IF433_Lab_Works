@@ -44,19 +44,28 @@ fun loadTrades(path: String): List<TradeRecord> {
     }
 }
 
-val trades = listOf(
-    TradeRecord(id = 1, symbol = "BTCUSDT", type = "Long",  margin = 100.0, pnl =  25.50),
-    TradeRecord(id = 2, symbol = "ETHUSDT", type = "Short", margin =  50.0, pnl = -10.00),
-    TradeRecord(id = 3, symbol = "SOLUSDT", type = "Long",  margin =  75.0, pnl =  18.75)
-)
+fun main() {
+    println("=== CRYPTO TRADE LOGGER ===")
 
-saveTrades(trades, path = "crypto_trades.csv")
-println("Trade records berhasil disimpan ke crypto_trades.csv")
+    val trades = listOf(
+        TradeRecord(id = 1, symbol = "BTCUSDT", type = "Long",  margin = 100.0, pnl =  25.50),
+        TradeRecord(id = 2, symbol = "ETHUSDT", type = "Short", margin =  50.0, pnl = -10.00),
+        TradeRecord(id = 3, symbol = "SOLUSDT", type = "Long",  margin =  75.0, pnl =  18.75)
+    )
 
-File("crypto_trades.csv").appendText("CORRUPT_ID,DOGEUSDT,Hold,XX,YY\n")
-println("Baris data korup berhasil di-inject untuk pengujian robustness.")
+    saveTrades(trades, path = "crypto_trades.csv")
+    println("Trade records berhasil disimpan ke crypto_trades.csv")
 
-println("\n=== MEMUAT DATA HISTORI ===")
-val loadedData = loadTrades(path = "crypto_trades.csv")
+    File("crypto_trades.csv").appendText("CORRUPT_ID,DOGEUSDT,Hold,XX,YY\n")
+    println("Baris data korup berhasil di-inject untuk pengujian robustness.")
 
-val totalPnl = loadedData.sumOf { it.pnl }
+    println("\n=== MEMUAT DATA HISTORI ===")
+    val loadedData = loadTrades(path = "crypto_trades.csv")
+
+    val totalPnl = loadedData.sumOf { it.pnl }
+
+    println("\n=== RIWAYAT TRANSAKSI VALID ===")
+    loadedData.forEach { println(it) }
+
+    println("\n==== TOTAL PnL BERSIH: $totalPnl ====")
+}
